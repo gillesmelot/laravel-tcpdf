@@ -1,0 +1,23 @@
+{
+    "name": "gillesmelot/laravel-tcpdf",
+    "description": "A simple Laravel 4 service provider with some basic configuration for including the TCPDF library",
+    "keywords": ["laravel", "pdf", "tcpdf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilles Melot",
+            "email": "me@tallgeese.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4",
+        "tecnickcom/tcpdf": "6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gillesmelot\\LaravelTcpdf\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
